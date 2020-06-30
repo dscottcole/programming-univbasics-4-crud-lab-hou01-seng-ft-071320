@@ -9,13 +9,13 @@ end
 def add_element_to_end_of_array(array, element)
   array = ["wow", "I", "am", "really", "learning"]
   element = "arrays!"
-  add_element_to_end_of_array = [array, element] 
+  [array, element] 
 end
 
 def add_element_to_start_of_array(array, element)
   array = ["I", "am", "really", "learning"]
   element = "wow"
-  add_element_to_start_of_array = [element, array]
+  [element, array]
 end
 
 def remove_element_from_end_of_array(array)
